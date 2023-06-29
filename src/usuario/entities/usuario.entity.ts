@@ -1,6 +1,5 @@
 import { BeforeInsert, BeforeUpdate, Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { PedidoEntity } from 'src/pedido/entities/pedido.entity';
 
 @Entity('usuarios')
 export class UsuarioEntity {
