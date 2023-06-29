@@ -27,10 +27,9 @@ import { RepartidorModule } from './repartidor/repartidor.module';
 
     PedidoModule,
     PlatillosModule,
+    RepartidorModule,
     UsuarioModule,
     AuthModule,
-    RepartidorModule,
-    
   ],
   controllers: [AppController],
   providers: [AppService],
