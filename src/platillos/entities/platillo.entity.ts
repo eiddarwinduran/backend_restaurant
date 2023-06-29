@@ -1,7 +1,4 @@
-import { PedidoEntity } from "src/pedido/entities/pedido.entity";
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
-
-
 @Entity('platillos')
 export class PlatilloEntity {
 
@@ -15,5 +12,5 @@ export class PlatilloEntity {
   precio:number;
 
   //@OneToMany(() => PedidoEntity, pedido => pedido.platillo)
-  //pedido: PedidoEntity[];
+  //pedido: PedidoEntity[]; cmabios
 }
