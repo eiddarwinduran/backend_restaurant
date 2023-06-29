@@ -12,5 +12,5 @@ export class PlatilloEntity {
   precio:number;
 
   //@OneToMany(() => PedidoEntity, pedido => pedido.platillo)
-  //pedido: PedidoEntity[]; cmabios
+  //pedido: PedidoEntity[]; 
 }
